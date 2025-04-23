@@ -1,0 +1,10 @@
+{
+  "AddCandidateTest": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@email.com",
+    "contactNo": "1234567890",
+    "vacancy": "Senior QA Lead",
+    "resumePath": "C:\\OrangeHRM\\OrangeHRM\\src\\main\\resources\\resume.pdf"
+  }
+}
