@@ -11,7 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import utils.EmailUtils;
+import utils.EmailUtils1;
 
 import java.io.File;
 import java.time.Duration;
@@ -42,6 +42,6 @@ public class BaseTest {
     @AfterSuite
     public void tearDownSuite() {
         //EmailUtils.sendReport("C:\\OrangeHRM\\OrangeHRM\\test-output\\ExtentReport.html");
-        EmailUtils.sendReport(System.getProperty("user.dir") + File.separator + "test-output" + File.separator + "ExtentReport.html");
+        EmailUtils1.sendReport(System.getProperty("user.dir") + File.separator + "test-output" + File.separator + "ExtentReport.html");
     }
 }

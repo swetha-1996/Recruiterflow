@@ -31,7 +31,6 @@ public class addCandidateTest extends BaseTest {
         RP.addCandidate(testCaseData.get("firstName").toString(), testCaseData.get("lastName").toString(), testCaseData.get("email").toString(),testCaseData.get("contactNo").toString(),testCaseData.get("vacancy").toString() ,testCaseData.get("resumePath").toString());
         //Verify that the candidate is added successfully
         RP.verifyCandidateAdded(testCaseData);
-        //RP.takeScreenshot("CandidateAdded");
 
     }
 }
